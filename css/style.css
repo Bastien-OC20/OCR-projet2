@@ -9,6 +9,7 @@ li {
     list-style: none;
 }
 
+
 section,
 article,
 aside,
@@ -56,24 +57,19 @@ hgroup {
 }
 
 .contact {
-    padding: 2em 2em 2em 2em;
-
+    padding: 3em;
 }
 
-.contact a:link {
-    color: black;
-    text-decoration: none;
-}
-
-.contact a:visited {
+.contact a{
     color: black;
     text-decoration: none;
 }
 
 .contact a:hover {
-    color: rgb(112, 110, 110);
+    text-decoration: none;
+    color:white;
+    transition: cubic-bezier(0.23, 1, 0.320, 1) 400ms;
 }
-
 
 .contact p {
     margin-top: -1.5em;
@@ -81,7 +77,7 @@ hgroup {
 }
 
 .propos {
-    padding: 2em;
+    padding: 3em;
 }
 
 /* Section right */
@@ -108,7 +104,6 @@ hgroup {
     margin: 0.5em 0em 0em 1em;
     border-bottom: solid 0.05em rgb(241, 207, 14);
     padding-bottom: 0.1em;
-
 }
 
 .formation {
@@ -118,10 +113,10 @@ hgroup {
 
 .puce {
     position: absolute;
+    padding-top: 0.3em;
 }
 
 .when_where {
-    display: inline-block;
     padding-left: 2em;
 }
 
@@ -134,17 +129,16 @@ hgroup {
     padding-left: 2.5em;
 }
 
-/* Footer */
 
 /* Loisirs */
 
 .loisirs {
-    text-align: center;
-    padding: 2em 0em 2em 0em;
+    padding: 2em 0em 2em 3em;
+    opacity: 90%;
 }
 
 .icon_loisir {
-    padding-top: 1em 0.4em 0em 0em ;
+    padding: 1em 0.2em 0em 0.2em;
     font-size: 1.5em;
 }
 
@@ -172,18 +166,10 @@ hgroup {
     text-decoration: none;
 }
 
-.card-text a:link {
-    color: black;
-    text-decoration: none;
-}
-
-.card-text a:visited {
-    color: black;
-    text-decoration: none;
-}
-
 .card-text a:hover {
+    text-decoration: none;
     color: rgb(241, 207, 14);
+    transition: cubic-bezier(0.23, 1, 0.320, 1) 400ms;
 }
 
 /* responsive background  */
