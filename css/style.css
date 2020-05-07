@@ -1,0 +1,195 @@
+.sectionleft {
+    background-color: rgb(241, 207, 14);
+    font-weight: 500;
+}
+
+
+
+li {
+    list-style: none;
+}
+
+section,
+article,
+aside,
+footer,
+header,
+nav,
+hgroup {
+    display: block;
+}
+
+/* header  */
+
+.photo_profil {
+    padding: 2em;
+}
+
+
+.color-name {
+    color: rgb(241, 207, 14);
+}
+
+.sous-titre {
+    padding: 0em 0em 1em 1.6em;
+}
+
+.bottom {
+    border-bottom: solid 0.1em rgb(241, 207, 14);
+}
+
+.titre {
+    padding: 6em 0em 0em 2em;
+}
+
+
+.titre p {
+    font-size: 1.4em;
+}
+
+/* Main */
+
+.orange {
+    text-align: center;
+    background-color: #0f0f0fe5;
+    color: rgb(241, 207, 14);
+}
+
+.contact {
+    padding: 2em 2em 2em 2em;
+
+}
+
+.contact a:link {
+    color: black;
+    text-decoration: none;
+}
+
+.contact a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+.contact a:hover {
+    color: rgb(112, 110, 110);
+}
+
+
+.contact p {
+    margin-top: -1.5em;
+    padding-right: 1em;
+}
+
+.propos {
+    padding: 2em;
+}
+
+/* Section right */
+
+.fa-pen-fancy,
+.fa-graduation-cap,
+.fa-briefcase,
+.fa-dot-circle,
+.fa-circle {
+    color: rgb(241, 207, 14);
+}
+
+.description {
+    padding-left: 2em;
+}
+
+.description li {
+    margin-left: -2.5em;
+}
+
+/* FORMATION */
+
+.titre_right {
+    margin: 0.5em 0em 0em 1em;
+    border-bottom: solid 0.05em rgb(241, 207, 14);
+    padding-bottom: 0.1em;
+
+}
+
+.formation {
+    margin-top: 2em;
+    padding-left: 2.5em;
+}
+
+.puce {
+    position: absolute;
+}
+
+.when_where {
+    display: inline-block;
+    padding-left: 2em;
+}
+
+
+
+/* Experience professionnelle  */
+
+.exp-pro {
+    margin-top: 2em;
+    padding-left: 2.5em;
+}
+
+/* Footer */
+
+/* Loisirs */
+
+.loisirs {
+    text-align: center;
+    padding: 2em 0em 2em 0em;
+}
+
+.icon_loisir {
+    padding-top: 1em 0.4em 0em 0em ;
+    font-size: 1.5em;
+}
+
+
+/* Recommandations */
+
+.recommandation {
+    text-align: justify;
+    padding: 1em 0em 0em 4em;
+}
+
+
+.card-header {
+    background-color: rgba(241, 207, 14, 0.13);
+}
+
+.card-title {
+    border-bottom: solid 0.04em rgb(241, 207, 14);
+    width: 7em;
+    padding-bottom: 0.4em;
+}
+
+.card-text a:link {
+    color: black;
+    text-decoration: none;
+}
+
+.card-text a:link {
+    color: black;
+    text-decoration: none;
+}
+
+.card-text a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+.card-text a:hover {
+    color: rgb(241, 207, 14);
+}
+
+/* responsive background  */
+
+@media (max-width: 600px) {
+    .element {
+        background: none;
+    }
+}
