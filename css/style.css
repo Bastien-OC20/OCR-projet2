@@ -1,0 +1,199 @@
+body{
+    overflow-x:hidden; /* on empeche le defillement horizontall */
+    overflow-y:scroll; /* on accepte le defillement vertical */
+    }
+
+.sectionleft {
+    background-color: rgb(241, 207, 14);
+}
+
+.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+li {
+    list-style: none;
+}
+
+div {
+    padding-top: 1.5em;
+
+}
+
+section,
+article,
+aside,
+footer {
+    display: block;
+    padding-bottom: 1em;
+}
+
+/* header  */
+
+
+
+.titre {
+    vertical-align: middle;
+    padding: 7em 0em 0em 3em;
+}
+
+.color-name {
+    color: rgb(241, 207, 14);
+}
+
+
+.bottom {
+    border-bottom: solid 0.1em rgb(241, 207, 14);
+}
+
+
+/* Main */
+
+.sectionleft h2{
+    text-align: center;
+    background-color: #0f0f0fe5;
+    color: rgb(241, 207, 14);
+}
+
+.contact {
+    padding: 2em 2em 0em 3em;
+}
+
+.contact a{
+    color: black;
+    text-decoration: none;
+}
+
+.contact a:hover {
+    text-decoration: none;
+    color:white;
+    transition: cubic-bezier(0.23, 1, 0.320, 1) 400ms;
+}
+
+.contact p {
+    margin-top: -1.5em;
+    padding-right: 1em;
+}
+
+.propos {
+    padding: 2em 2em 0em 3em;
+}
+
+/* Section right */
+
+.fa-pen-fancy,
+.fa-graduation-cap,
+.fa-briefcase,
+.fa-dot-circle,
+.fa-circle {
+    color: rgb(241, 207, 14);
+    margin-right: 0.5em;
+}
+
+
+.underline {
+    border-bottom: solid 0.05em rgb(241, 207, 14);
+    padding-bottom: 0.2em;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.puce {
+    position: absolute;
+    padding-top: 0.3em;
+    padding-left: 2em;
+}
+
+.when_where {
+    padding-left: 4em;
+}
+
+.description{
+    padding:1.5em 3em 0em 3em ;
+}
+
+/* Loisirs */
+
+.loisirs {
+    text-align: center;
+}
+
+
+
+/* Recommandations */
+
+.recommandation {
+    padding: 0em 0em 0em 2em;
+}
+
+
+.card-header {
+    background-color: rgba(241, 207, 14, 0.13);
+}
+
+.card-title {
+    border-bottom: solid 0.04em rgb(241, 207, 14);
+    width: 7em;
+    padding-bottom: 0.4em;
+}
+
+.card-text a:link {
+    color: black;
+    text-decoration: none;
+}
+
+.card-text a:hover {
+    text-decoration: none;
+    color: rgb(241, 207, 14);
+    transition: cubic-bezier(0.23, 1, 0.320, 1) 400ms;
+}
+
+
+
+
+
+/* responsive */
+
+@media (max-width: 1024px) {
+
+    .sectionleft img{
+        margin:0em 3em 1em 0em ;
+    }
+}
+
+
+/* max-width 600px */
+@media (max-width: 650px) {
+    .hide {
+        background: none;
+    }
+
+    .titre {
+        padding: 1em 0em 1em 4em;
+    }
+}
+
+
+/* max-width 500px */
+
+@media (max-width: 500px) {
+
+    .hide {
+        background: none;
+    }
+
+    .underline {
+        font-size: 1.7em;
+    }
+
+    .titre {
+        padding: 1em 0em 1em 3em;
+    }
+
+    .sectionleft img{
+        margin:0em 0em 1em 0em ;
+    }
+}
+
+
