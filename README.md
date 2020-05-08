@@ -23,7 +23,7 @@ Ce projet s'inscrit dans la formation Développeur web
 
 - **git remote add [remote_name] [url: -> https://bastien-oc20.github.io/ocr-projet2/ :** ajoute un dépôt distant
 - **git fetch [nom-distant -> ex : origin] :** récupère et tire toutes les données sous sa propre branche sans merge (fusion) ajoutées au dépôt distant - recommandé
-- **git pull :** récupère et fusionne une branche distante - si clone récupère origin - plus confortable si certain des modifications
+- **git pull :** récupère et fusionne une branche distante.
 
 ## Fabriqué avec
 
