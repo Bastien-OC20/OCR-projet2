@@ -8,6 +8,12 @@
 
 Ce projet s'inscrit dans la formation Développeur web 
 
+Consignes :
+- Coder le CV en HTML et CSS uniquement
+- Réaliser un code responsive (choix du mobile first pour ma part)
+- Utiliser Git (après apprentissage, choix d'utiliser GitKraken pour plus d'efficacité)
+- Pousser le CV sur Github
+
 ### Pré-requis
 
 - Html5 et css3
@@ -30,4 +36,17 @@ Ce projet s'inscrit dans la formation Développeur web
 * [Git](https://git-scm.com/download/win) - logiciel de versioning et de stockage
 * [Visual Studio Code](https://code.visualstudio.com/) - Editeur de textes
 * [Bootstrap](https://getbootstrap.com/) - framework CSS HTML et JavaScript
+
+## Versioning
+
+v1.8  Validation W3C Html et css
+
+## Auteur(s)
+
+- **Bastien Rapuzzi** [Bastien-OC20](https://github.com/Bastien-OC20/)
+
+
+## License
+
+Ce projet est libre.
 
