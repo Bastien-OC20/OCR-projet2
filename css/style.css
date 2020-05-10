@@ -60,14 +60,14 @@ hgroup {
     padding: 3em;
 }
 
-.contact a {
+.contact a{
     color: black;
     text-decoration: none;
 }
 
 .contact a:hover {
     text-decoration: none;
-    color: white;
+    color:white;
     transition: cubic-bezier(0.23, 1, 0.320, 1) 400ms;
 }
 
