@@ -48,5 +48,6 @@ v1.8  Validation W3C Html et css
 
 ## License
 
-Ce projet est libre.
+Ce projet est libre
+
 
