@@ -25,7 +25,7 @@ Consignes :
 
 ### Installation
 
- Executez Git bash
+- Executez Git bash
 
 ## Démarrage
 
@@ -45,10 +45,15 @@ v1.8  Validation W3C Html et css
 
 ## Auteur(s)
 
-- **Bastien Rapuzzi** [Bastien-OC20](https://github.com/Bastien-OC20/)
+- [**Bastien-OC20**](https://github.com/Bastien-OC20/)
+
+
+## Wiki
+- [**Wiki du projet**](https://github.com/Bastien-OC20/ocr-projet2/wiki)
 
 
 ## License
 
-Ce projet est libre
+* [GNU General Public License v3.0](https://github.com/Bastien-OC20/ocr-projet2/blob/master/licence.md).
+* Projet libre de droit
 
