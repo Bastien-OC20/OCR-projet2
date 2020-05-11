@@ -51,11 +51,18 @@ Consignes :
 ## Tags
 
 - **v1.4**: Refonte du code HTML et CSS
+<<<<<<< HEAD
 - **v1.3**: Ajout de la licence
 - **v1.2**: Création du fichier readme
 - **v1.1**: Ajout de la feuille de style css + favicon et photo de profil
 - **alpha**: Lancement du projet 2 : Transformez votre CV en site web
 
+=======
+- **v1.3**: Refonte du code HTML et CSS
+- **v1.2**: Création du fichier readme
+- **v1.1**: Ajout de la feuille de style css + favicon et photo de profil
+- **alpha**: Lancement du projet 2 : Transformez votre CV en site web
+>>>>>>> dd436d8... 📦 Create file license.md et Update README.md
 
 ## Auteur(s)
 
