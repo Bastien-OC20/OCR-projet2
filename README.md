@@ -9,9 +9,6 @@
 
 ## Pour commencer
 
-
-Ce projet s'inscrit dans le cadre de la formation "Développeur web" proposée par OpenClassroom.
-
 Ce projet s'inscrit dans le cadre de la formation "Développeur web" proposée par OpenClassroom.
 
 Consignes :
@@ -30,8 +27,6 @@ Consignes :
 
 ### Installation
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 - **Executez Git bash**
 - **git clone https://bastien-oc20.github.io/ocr-projet2/**
 - Executez Git bash
