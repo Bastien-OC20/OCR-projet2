@@ -3,17 +3,18 @@
 
     <head>
         <!-- Required meta tags -->
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-        <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta charset="UTF-8">
+        <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-        <link rel="stylesheet" href="css/style.css" />
-        <script src="https://kit.fontawesome.com/f015622578.js" crossorigin="anonymous"></script>
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
             integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
             integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <!-- Fontawesome -->
+        <script src="https://kit.fontawesome.com/f015622578.js" crossorigin="anonymous"></script>
+        <!-- Bootstrap CSS -->
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
             integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
             crossorigin="anonymous"></script>
@@ -23,31 +24,33 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
             integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
             crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="css/style.css" />
         <title>Sébastien RAPUZZI&nbsp;|&nbsp;C-V</title>
     </head>
 
     <body class="container p-0">
         <!-- Header -->
-        <header class="row p-0">
+        <header class="row no-gutter">
             <!-- photo-profil -->
-            <aside class="col-md-4 sectionleft element text-center p-0">
+            <aside class="col-md-4 sectionleft element">
                 <img class="img-fluid photo_profil" alt="picture" src="img/photo-profil.png " />
             </aside>
             <!-- titre -->
-            <article class="col-md-8 sectionright">
+            <article class="col-md-8">
                 <div class="titre">
                     <h1><span class="color-name">SÉBASTIEN</span>&nbsp;<wbr>RAPUZZI</h1>
-                    <p><span class="bottom">Dével</span>oppeur web</p>
+                    <p><strong><span class="bottom">Dével</span>oppeur web</strong></p>
                 </div>
             </article>
         </header>
         <!-- Main -->
-        <main class="row d-flex flex-box p-0">
-            <!-- Formation  -->
-            <article class="col-md-8 sectionright order-md-2">
-                <h2 class="titre_right"><i class="fas fa-graduation-cap"></i>&nbsp;FORMATION</h2>
-                <section class="row formation">
-                    <div class="col-md-4">
+        <main class="row no-gutter">
+            <!-- Formation -->
+            <article class="col-md-8 order-md-2">
+                <!-- FORMATION -->
+                <h2 class="underline"><i class="fas fa-graduation-cap"></i>&nbsp;FORMATION</h2>
+                <section class="row">
+                    <div class="col-md-4 ">
                         <i class="far fa-dot-circle puce"></i>
                         <p class="when_where"><b>Mars - sept 2020<br>A distance</b></p>
                     </div>
@@ -64,25 +67,25 @@
                     </div>
                 </section>
             </article>
-            <article class="col-md-8 sectionright order-md-4">
-                <!-- Expérience Professionnelle -->
-                <h2 class="titre_right"><i class="fas fa-briefcase"></i>&nbsp;EXPÉRIENCE PROFESSIONNELLE</h2>
-                <section class="row exp-pro">
+            <!-- Expérience Professionnelle -->
+            <article class="col-md-8 order-md-4">
+                <h2 class="underline"><i class="fas fa-briefcase"></i>&nbsp;EXPÉRIENCE PROFESSIONNELLE</h2>
+                <section class="row">
                     <div class="col-md-4">
-                        <i class="fas fa-circle puce"></i>
-                        <p class="when_where"><b>Janv - juil 2019<br>Châteauneuf<br>-les-<br>Martigues</b></p>
+                        <i class="far fa-dot-circle puce"></i>
+                        <p class="when_where"><b>Janv - juil 2019<br>Châteauneuf -<wbr> les - <wbr>Martigues</b></p>
                     </div>
                     <div class="col-md-8 description">
                         <h4>Community manager - Webmaster</h4>
                         <h5>Technicien Informatique</h5>
-                        <ul>
-                            <li>Refonte du site internet</li>
-                            <li>Montage/vidéo</li>
-                            <li>et communication numérique</li>
-                        </ul>
+                        <p>En tant que Community Manager, j'ai élaborer, en lien avec les élus,
+                            des reportages videos tout en assurant la cummunication numèrique des services.<br>
+                            Et j'ai pu participer à la refonte du site de la ville en partenariat avec les prestataires.
+                        </p>
                     </div>
                 </section>
-                <section class="row exp-pro">
+                    <section class="row">
+                    <!-- exp-pro 2 -->
                     <div class="col-md-4">
                         <i class="fas fa-circle puce"></i>
                         <p class="when_where"><b>Déc 2015 - janv 2019<br> Aubagne</b></p>
@@ -90,68 +93,58 @@
                     <div class="col-md-8 description">
                         <h4>Webmaster</h4>
                         <h5>Technicien Informatique</h5>
-                        <ul>
-                            <li>Refonte du site internet</li>
-                            <li>Montage-vidéo</li>
-                            <li>Communication numérique (réseaux sociaux)</li>
-                            <li>Création d'une Newsletter</li>
-                            <li>Création de l'appli 1895</li>
-                            <li>Veille technologique et institutionnelle</li>
-                        </ul>
+                        <p>J'ai pu contribué à l'élaboration d'une stratégie numèrique en mettant en place une newletter
+                            et assurant une veille technologique et institutionnelle ainsi que de participer à la
+                            refonte du site de la ville.<br>
+                            Lors de grands événements, j'assuré le suivi de la cummunication numérique, des réseaux
+                            sociaux au reportages videos (et montage).</p>
                     </div>
                 </section>
-                <section class="row exp-pro">
+                    <section class="row">
+                    <!-- exp-pro 3 -->
                     <div class="col-md-4">
                         <i class="fas fa-circle puce"></i>
                         <p class="when_where"><b>2003 - nov 2015<br>Marseille</b></p>
                     </div>
                     <div class="col-md-8 description">
                         <h4>Éducateur spécialisé</h4>
-                        <p class="mission">Prise en charge d'un public de jeunes, handicapés, délinquants et personnes
-                            âgées</p>
+                        <p>Prise en charge d'un public de jeunes, handicapés, délinquants et personnes âgées</p>
                     </div>
                 </section>
             </article>
-            <article class="col-md-8 sectionright order-md-6">
-                <h2 class="titre_right"><i class="fas fa-pen-fancy"></i>&nbsp;RECOMMANDATIONS</h2>
-                <section class="row">
-                    <div class="col-xs-md-6 card-deck recommandation ">
-                        <div class="card border-0">
-                            <div class="card-header bg-white border-0">
-                                <h3>Export<wbr>&nbsp;St-Vincent</h3>
-                            </div>
-                            <div class="card-body">
-                                <h4 class="card-title">Galante Marie</h4>
-                                <p>Directrice</p>
-                                <p class="card-text"><i class="fa fa-lg fa-whatsapp"></i>
-                                    <a href="tel:+33606060606">&nbsp;+33 606 060 606</a>
-                                </p>
-                                <p class="card-text"><i class="far fa-lg fa-envelope"></i>
-                                    <a href="mailto:marie.gal@email.com">&nbsp;marie.gal@email.com</a>
-                                </p>
-                            </div>
+            <!-- Recommandations -->
+            <article class="col-md-8 order-md-6">
+                <h2 class="underline"><i class="fas fa-pen-fancy"></i>&nbsp;RECOMMANDATIONS</h2>
+                <section class="row recommandation">
+                    <div class="col-md-6 card border-0">
+                        <div class="card-body">
+                            <h5 class="card-title">Galante Marie</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">Export&nbsp;-St-<wbr>&nbsp;Vincent</h6>
+                            <p class="card-text">
+                                Directrice
+                            </p>
+                            <p class="card-text"><i class="fa fa-lg fa-whatsapp"></i>
+                                <a href="tel:+33606060606">&nbsp;+33<wbr> 606 060 606</a></p>
+                            <p class="card-text"><i class="far fa-lg fa-envelope"></i>
+                                <a href="mailto:marie.gal@email.com">&nbsp;marie.gal<wbr>@email.com</a></p>
                         </div>
                     </div>
-                    <div class="col-xs-md-6 card-deck recommandation">
-                        <div class=" card border-0 ">
-                            <div class="card-header bg-white border-0 ">
-                                <h3>B.Conseils</h3>
-                            </div>
-                            <div class="card-body">
-                                <h4 class="card-title">Failine Didier</h4>
-                                <p>Directeur</p>
-                                <p class="card-text"><i class="fa fa-lg fa-whatsapp"></i><a
-                                        href="tel:+33608080808">&nbsp;+33 808 080 808</a></p>
-                                <p class="card-text"><i class="far fa-lg fa-envelope"></i>
-                                    <a href="mailto:Didier.fail@email.com">&nbsp;didier.fail@email.com</a>
-                                </p>
-                            </div>
+                    <div class="col-md-6 card border-0">
+                        <div class="card-body">
+                            <h5 class="card-title">Failine Didier</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">B.Conseils</h6>
+                            <p>Directeur</p>
+                            <p class="card-text"><i class="fa fa-lg fa-whatsapp"></i><a
+                                    href="tel:+33608080808">&nbsp;+33<wbr> 808 080 808</a></p>
+                            <p class="card-text"><i class="far fa-lg fa-envelope"></i>
+                                <a href="mailto:Didier.fail@email.com">&nbsp;didier.fail<wbr>@email.com</a>
+                            </p>
                         </div>
                     </div>
                 </section>
             </article>
-            <aside class="col-md-4 sectionleft p-0 order-md-1">
-                <!-- Contact -->
+            <!-- Contact -->
+            <article class="col-md-4 sectionleft order-md-1 p-0">
                 <h2 class="orange">CONTACT</h2>
                 <address class="contact">
                     <!-- Map -->
@@ -166,28 +159,28 @@
                     <p><a href="mailto:bastien.rapuzzi@gmail.com?subject=the&nbsp;subject&cc=cc@example.com&body=Main&nbsp;text&nbsp;of&nbsp;the&nbsp;mail"
                             title="Contacter"><br>bastien.rapuzzi@gmail.com</a></p>
                 </address>
-            </aside>
-            <!-- A Propos  -->
-            <aside class="col-md-4 sectionleft p-0 order-md-3">
+            </article>
+            <!-- A Propos -->
+            <article class="col-md-4 sectionleft order-md-3 p-0">
                 <h2 class="orange">A PROPOS...</h2>
                 <div class="propos">
                     <p>Éducateur spécialisé pendant 13 ans,<wbr> j’ai développé les qualités essentielles au métier :
-                        <wbr>
-                        excellent relationnel, autonomie, polyvalence, sens de l’organisation et travail en équipe.</p>
+                        <wbr>excellent relationnel, autonomie, polyvalence, sens de l’organisation et travail en équipe.</p>
                     <p>Passionné par le numérique, j’ai entrepris une reconversion au travers d’une formation de
                         développeur web<wbr> afin d’acquérir les compétences techniques et pratiques.</p>
                 </div>
-            </aside>
-            <aside class="col-md-4 sectionleft align-items-end  p-0 order-md-5">
-                <!-- Loisirs     -->
+            </article>
+            <!-- Loisirs  -->
+            <article class="col-md-4 sectionleft order-md-5 p-0">
                 <h2 class="orange">LOISIRS</h2>
-                <div class="loisirs ">
-                    <span class="icon_loisir"><i class="fa fa-lg fa-table-tennis"></i></span>
-                    <span class="icon_loisir"><i class="fa fa-lg fa-biking"></i></span>
-                    <span class="icon_loisir"><i class="fa fa-lg fa-film "></i></span>
-                    <span class="icon_loisir"><i class="fa fa-lg fa-gamepad"></i></span>
+                <div class="loisirs">
+                    <p class="icon_loisir"><i class="fa fa-lg fa-table-tennis"></i></p>
+                    <p class="icon_loisir"><i class="fa fa-lg fa-biking"></i></p>
+                    <p class="icon_loisir"><i class="fa fa-lg fa-film "></i></p>
+                    <p class="icon_loisir"><i class="fa fa-lg fa-gamepad"></i></p>
                 </div>
-            </aside>
+            </article>
+
         </main>
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->

@@ -3,50 +3,49 @@
     font-weight: 500;
 }
 
-
+.no-gutter {
+    padding-right: 0;
+    padding-left: 0;
+}
 
 li {
     list-style: none;
 }
 
+div {
+    padding-top: 1.5em;
+
+}
 
 section,
 article,
 aside,
-footer,
-header,
-nav,
-hgroup {
+footer {
     display: block;
+    padding-bottom: 1em;
 }
 
 /* header  */
 
 .photo_profil {
-    padding: 2em;
+    padding: 3em;
 }
 
+.titre {
+    vertical-align: middle;
+    padding: 7em 0em 0em 3em;
+}
 
 .color-name {
     color: rgb(241, 207, 14);
 }
 
-.sous-titre {
-    padding: 0em 0em 1em 1.6em;
-}
+
 
 .bottom {
     border-bottom: solid 0.1em rgb(241, 207, 14);
 }
 
-.titre {
-    padding: 6em 0em 0em 2em;
-}
-
-
-.titre p {
-    font-size: 1.4em;
-}
 
 /* Main */
 
@@ -57,17 +56,17 @@ hgroup {
 }
 
 .contact {
-    padding: 3em;
+    padding: 2em 2em 0em 3em;
 }
 
-.contact a{
+.contact a {
     color: black;
     text-decoration: none;
 }
 
 .contact a:hover {
     text-decoration: none;
-    color:white;
+    color: white;
     transition: cubic-bezier(0.23, 1, 0.320, 1) 400ms;
 }
 
@@ -77,7 +76,7 @@ hgroup {
 }
 
 .propos {
-    padding: 3em;
+    padding: 2em 2em 0em 3em;
 }
 
 /* Section right */
@@ -88,66 +87,49 @@ hgroup {
 .fa-dot-circle,
 .fa-circle {
     color: rgb(241, 207, 14);
+    margin-right: 0.5em;
 }
 
-.description {
-    padding-left: 2em;
-}
 
-.description li {
-    margin-left: -2.5em;
-}
-
-/* FORMATION */
-
-.titre_right {
-    margin: 0.5em 0em 0em 1em;
+.underline {
     border-bottom: solid 0.05em rgb(241, 207, 14);
-    padding-bottom: 0.1em;
-}
-
-.formation {
-    margin-top: 2em;
-    padding-left: 2.5em;
+    padding-bottom: 0.2em;
+    margin-left: 1em;
 }
 
 .puce {
     position: absolute;
     padding-top: 0.3em;
-}
-
-.when_where {
     padding-left: 2em;
 }
 
-
-
-/* Experience professionnelle  */
-
-.exp-pro {
-    margin-top: 2em;
-    padding-left: 2.5em;
+.when_where {
+    padding-left: 4em;
 }
 
+.description{
+    padding:1.5em 2em 0em 3em ;
+}
 
 /* Loisirs */
 
 .loisirs {
-    padding: 2em 0em 2em 3em;
+    text-align: center;
     opacity: 90%;
+    padding: 2em 0em 0em 3em;
 }
 
 .icon_loisir {
-    padding: 1em 0.2em 0em 0.2em;
-    font-size: 1.5em;
+    display: inline-block;
+    font-size: 2em;
+    padding-right: 1em;
 }
 
 
 /* Recommandations */
 
 .recommandation {
-    text-align: justify;
-    padding: 1em 0em 0em 4em;
+    padding: 0em 0em 0em 2em;
 }
 
 
@@ -172,10 +154,53 @@ hgroup {
     transition: cubic-bezier(0.23, 1, 0.320, 1) 400ms;
 }
 
-/* responsive background  */
 
-@media (max-width: 600px) {
+
+
+
+/* responsive */
+
+@media (max-width: 1024px) {
+
+    .icon_loisir {
+        padding-right: 2em;
+    }
+}
+
+@media (max-width: 650px) {
     .element {
         background: none;
     }
+
+    .photo_profil {
+        padding-left: 9em;
+    }
+
+    .titre {
+        padding: 1em 0em 1em 4em;
+    }
+
+    .icon_loisir {
+        padding-right: 2em;
+    }
+
+}
+
+@media (max-width: 500px) {
+    .element {
+        background: none;
+    }
+
+    .photo_profil {
+        padding-left: 4em;
+    }
+
+    .titre {
+        padding: 1em 0em 1em 3em;
+    }
+
+    .icon_loisir {
+        padding-right: 3em;
+    }
+
 }
