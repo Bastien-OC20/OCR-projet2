@@ -44,6 +44,7 @@ Consignes :
 ### Installation
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **Executez Git bash**
 - **git clone https://bastien-oc20.github.io/ocr-projet2/**
 
@@ -56,6 +57,11 @@ Consignes :
 - **git fetch [nom-distant -> ex : origin] :** récupère et tire toutes les données sous sa propre branche sans merge (fusion) ajoutées au dépôt distant - recommandé
 - **git pull :** récupère et fusionne une branche distante.
 >>>>>>> 70bd170... 📚 Ajout de la licence
+=======
+- **Executez Git bash**
+- **git clone https://bastien-oc20.github.io/ocr-projet2/**
+
+>>>>>>> ce06fb6... 🔨 Refonte du code (HTML et CSS) et du readme
 
 ## Fabriqué avec
 
@@ -76,10 +82,14 @@ Consignes :
 =======
 * [Bootstrap](https://getbootstrap.com/) - framework CSS HTML et JavaScript
 
-## Versioning
+## Tag
 
+
+<<<<<<< HEAD
 v1.8  Validation W3C Html et css
 >>>>>>> 70bd170... 📚 Ajout de la licence
+=======
+>>>>>>> ce06fb6... 🔨 Refonte du code (HTML et CSS) et du readme
 
 ## Auteur(s)
 

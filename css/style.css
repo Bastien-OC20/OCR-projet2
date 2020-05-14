@@ -15,6 +15,10 @@ li {
     list-style: none;
 }
 
+.titre {
+    vertical-align: middle;
+    padding: 7em 0em 0em 3em;
+}
 
 /* header  */
 
@@ -112,7 +116,7 @@ address,
 }
 
 .when_where {
-    padding-left: 2em;
+    padding-left: 4em;
 }
 
 .card-header {
