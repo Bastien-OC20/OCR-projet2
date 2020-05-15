@@ -33,7 +33,7 @@ Consignes :
 
 * [Git](https://git-scm.com/download/win) - logiciel de versioning et de stockage
 * [Visual Studio Code](https://code.visualstudio.com/) - Editeur de textes
-* [Bootstrap](https://getbootstrap.com/) - framework CSS HTML et JavaScript
+* [Bootstrap v4.5.0](https://getbootstrap.com/) - framework CSS HTML et JavaScript
 
 ## Tags
 - **v1.4**: Refonte du code HTML et CSS
