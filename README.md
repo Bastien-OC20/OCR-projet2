@@ -35,7 +35,12 @@ Consignes :
 * [Visual Studio Code](https://code.visualstudio.com/) - Editeur de textes
 * [Bootstrap](https://getbootstrap.com/) - framework CSS HTML et JavaScript
 
-## Tag
+## Tags
+- **v1.4**: Refonte du code HTML et CSS
+- **v1.3**: Refonte du code HTML et CSS
+- **v1.2**: Création du fichier readme
+- **v1.1**: Ajout de la feuille de style css + favicon et photo de profil
+- **alpha**: Lancement du projet 2 : Transformez votre CV en site web
 
 
 
