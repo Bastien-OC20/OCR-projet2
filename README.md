@@ -68,6 +68,7 @@ Consignes :
 * [Git](https://git-scm.com/download/win) - logiciel de versioning et de stockage
 * [Visual Studio Code](https://code.visualstudio.com/) - Editeur de textes
 <<<<<<< HEAD
+<<<<<<< HEAD
 * [Bootstrap v4.5.0](https://getbootstrap.com/) - framework CSS HTML et JavaScript
 
 
@@ -81,6 +82,9 @@ Consignes :
 
 =======
 * [Bootstrap](https://getbootstrap.com/) - framework CSS HTML et JavaScript
+=======
+* [Bootstrap v4.5.0](https://getbootstrap.com/) - framework CSS HTML et JavaScript
+>>>>>>> d9546f7... 📚 Modifiaction du Readme
 
 ## Tags
 - **v1.4**: Refonte du code HTML et CSS
