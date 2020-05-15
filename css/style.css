@@ -1,6 +1,10 @@
+body{
+    overflow-x:hidden; /* on empeche le defillement horizontall */
+    overflow-y:scroll; /* on accepte le defillement vertical */
+    }
+
 .sectionleft {
     background-color: rgb(241, 207, 14);
-    font-weight: 500;
 }
 
 .no-gutters {
@@ -27,9 +31,7 @@ footer {
 
 /* header  */
 
-.photo_profil {
-    padding: 3em;
-}
+
 
 .titre {
     vertical-align: middle;
@@ -49,7 +51,7 @@ footer {
 
 /* Main */
 
-.orange {
+.titre-sectionleft {
     text-align: center;
     background-color: #0f0f0fe5;
     color: rgb(241, 207, 14);
@@ -95,6 +97,7 @@ footer {
     border-bottom: solid 0.05em rgb(241, 207, 14);
     padding-bottom: 0.2em;
     margin-left: 1em;
+    margin-right: 1em;
 }
 
 .puce {
@@ -108,22 +111,15 @@ footer {
 }
 
 .description{
-    padding:1.5em 2em 0em 3em ;
+    padding:1.5em 3em 0em 3em ;
 }
 
 /* Loisirs */
 
 .loisirs {
     text-align: center;
-    opacity: 90%;
-    padding: 2em 0em 0em 3em;
 }
 
-.icon_loisir {
-    display: inline-block;
-    font-size: 2em;
-    padding-right: 1em;
-}
 
 
 /* Recommandations */
@@ -162,45 +158,43 @@ footer {
 
 @media (max-width: 1024px) {
 
-    .icon_loisir {
-        padding-right: 2em;
+    .sectionleft img{
+        margin:0em 3em 1em 0em ;
     }
 }
 
-@media (max-width: 650px) {
-    .element {
-        background: none;
-    }
 
-    .photo_profil {
-       display: none;
+/* max-width 600px */
+@media (max-width: 650px) {
+    .hide {
+        background: none;
     }
 
     .titre {
         padding: 1em 0em 1em 4em;
     }
-
-    .icon_loisir {
-        padding-right: 2em;
-    }
-
 }
 
+
+/* max-width 500px */
+
 @media (max-width: 500px) {
-    .element {
+
+    .hide {
         background: none;
     }
 
-    .photo_profil {
-        display: none;
+    .underline {
+        font-size: 1.7em;
     }
 
     .titre {
         padding: 1em 0em 1em 3em;
     }
 
-    .icon_loisir {
-        padding-right: 3em;
+    .sectionleft img{
+        margin:0em 0em 1em 0em ;
     }
-
 }
+
+
