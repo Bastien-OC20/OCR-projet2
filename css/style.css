@@ -164,6 +164,7 @@ address,
     .hide {
         background: none;
     }
+}
 
     h2 {
         font-size: 1.5em;
@@ -193,5 +194,6 @@ address,
     .description {
         padding: 0em 2em 1em 1em;
     }
-
 }
+
+
