@@ -25,13 +25,9 @@ Consignes :
 
 ### Installation
 
-- Executez Git bash
+- **Executez Git bash**
+- **git clone https://bastien-oc20.github.io/ocr-projet2/**
 
-## Démarrage
-
-- **git remote add [remote_name] [url: -> https://bastien-oc20.github.io/ocr-projet2/ :** ajoute un dépôt distant
-- **git fetch [nom-distant -> ex : origin] :** récupère et tire toutes les données sous sa propre branche sans merge (fusion) ajoutées au dépôt distant - recommandé
-- **git pull :** récupère et fusionne une branche distante.
 
 ## Fabriqué avec
 
@@ -39,9 +35,14 @@ Consignes :
 * [Visual Studio Code](https://code.visualstudio.com/) - Editeur de textes
 * [Bootstrap](https://getbootstrap.com/) - framework CSS HTML et JavaScript
 
-## Versioning
+## Tags
+- **v1.4**: Refonte du code HTML et CSS
+- **v1.3**: Refonte du code HTML et CSS
+- **v1.2**: Création du fichier readme
+- **v1.1**: Ajout de la feuille de style css + favicon et photo de profil
+- **alpha**: Lancement du projet 2 : Transformez votre CV en site web
 
-v1.8  Validation W3C Html et css
+
 
 ## Auteur(s)
 
