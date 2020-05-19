@@ -42,7 +42,7 @@ Consignes :
 ## Tags
 
 - **v1.4**: Refonte du code HTML et CSS
-- **v1.3**: Refonte du code HTML et CSS
+- **v1.3**: Ajout de la licence
 - **v1.2**: Création du fichier readme
 - **v1.1**: Ajout de la feuille de style css + favicon et photo de profil
 - **alpha**: Lancement du projet 2 : Transformez votre CV en site web
@@ -62,4 +62,3 @@ Consignes :
 
 * [GNU General Public License v3.0](https://github.com/Bastien-OC20/ocr-projet2/blob/master/licence.md).
 * Projet libre de droit
-

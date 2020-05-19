@@ -1,86 +1,97 @@
-body{
-    overflow-x:hidden; /* on empeche le defillement horizontall */
-    overflow-y:scroll; /* on accepte le defillement vertical */
-    }
+body {
+    overflow-x: hidden;/* pas de defillement horizontall */
+}
 
-.sectionleft {
+.container{
+    padding-left: 0em;
+    padding-right: 0em;
+}
+
+.columnleft {
     background-color: rgb(241, 207, 14);
 }
 
-.no-gutters {
-    margin-right: 0;
-    margin-left: 0;
-  }
-
-li {
-    list-style: none;
-}
-
-div {
-    padding-top: 1.5em;
-
-}
-
+div,
 section,
 article,
 aside,
 footer {
     display: block;
-    padding-bottom: 1em;
+    padding: 0em 0em 1em 0em;
 }
 
+li {
+    list-style: none;
+}
+
+
 /* header  */
-
-
 
 .titre {
     vertical-align: middle;
     padding: 7em 0em 0em 3em;
 }
 
-.color-name {
+.colorname {
     color: rgb(241, 207, 14);
 }
 
-
-.bottom {
+.decoration {
     border-bottom: solid 0.1em rgb(241, 207, 14);
 }
 
 
 /* Main */
 
-.sectionleft h2{
+/* columnleft */
+.columnleft img{
+    text-align: center;
+    padding-top: 1em;
+}
+
+.columnleft h2 {
     text-align: center;
     background-color: #0f0f0fe5;
     color: rgb(241, 207, 14);
 }
 
-.contact {
-    padding: 2em 2em 0em 3em;
-}
-
-.contact a{
+address a {
     color: black;
     text-decoration: none;
 }
 
-.contact a:hover {
+address a:hover {
     text-decoration: none;
-    color:white;
+    color: white;
     transition: cubic-bezier(0.23, 1, 0.320, 1) 400ms;
 }
 
-.contact p {
+address p {
     margin-top: -1.5em;
     padding-right: 1em;
 }
 
+address,
 .propos {
-    padding: 2em 2em 0em 3em;
+    padding: 1em 2em 0em 3em;
+}
+
+.loisirs {
+    text-align: center;
+    padding: 1em 0em 1em 0em;
 }
 
 /* Section right */
+
+.formation,
+.exp_pro,
+.recommandation {
+    padding-left: 3em;
+}
+
+.description {
+    padding: 0em 0em 1em 0em;
+}
 
 .fa-pen-fancy,
 .fa-graduation-cap,
@@ -88,45 +99,23 @@ footer {
 .fa-dot-circle,
 .fa-circle {
     color: rgb(241, 207, 14);
-    margin-right: 0.5em;
+    padding-right: 0.5em;
 }
-
 
 .underline {
     border-bottom: solid 0.05em rgb(241, 207, 14);
-    padding-bottom: 0.2em;
-    margin-left: 1em;
-    margin-right: 1em;
+    padding-bottom: 0.5em;
+    margin-bottom: 1em;
 }
 
 .puce {
     position: absolute;
-    padding-top: 0.3em;
-    padding-left: 2em;
+    padding: 0.3em 0em 0em 0em;
 }
 
 .when_where {
-    padding-left: 4em;
+    padding-left: 2em;
 }
-
-.description{
-    padding:1.5em 3em 0em 3em ;
-}
-
-/* Loisirs */
-
-.loisirs {
-    text-align: center;
-}
-
-
-
-/* Recommandations */
-
-.recommandation {
-    padding: 0em 0em 0em 2em;
-}
-
 
 .card-header {
     background-color: rgba(241, 207, 14, 0.13);
@@ -138,7 +127,7 @@ footer {
     padding-bottom: 0.4em;
 }
 
-.card-text a:link {
+.card-text a {
     color: black;
     text-decoration: none;
 }
@@ -150,50 +139,60 @@ footer {
 }
 
 
-
-
-
 /* responsive */
+/* max-width 1024px */
+@media (max-width: 1023px) {
 
-@media (max-width: 1024px) {
-
-    .sectionleft img{
-        margin:0em 3em 1em 0em ;
+    address, .propos{
+        padding-left: 2em;
+    }
+    .loisirs {
+        text-align: center;
+        padding:1em 4em 1em 3em;
     }
 }
 
 
-/* max-width 600px */
-@media (max-width: 650px) {
-    .hide {
+
+
+
+
+
+
+
+/* max-width 767px */
+@media (max-width: 767px) {
+
+    .hide{
         background: none;
+    }
+
+    address, .propos{
+        padding-left: 4em;
     }
 
     .titre {
-        padding: 1em 0em 1em 4em;
-    }
-}
-
-
-/* max-width 500px */
-
-@media (max-width: 500px) {
-
-    .hide {
-        background: none;
+        vertical-align: middle;
+        margin: 1em 0em 0em 2em;
+        padding: 0em;
     }
 
     .underline {
-        font-size: 1.7em;
+        margin-bottom: 1em;
     }
 
-    .titre {
-        padding: 1em 0em 1em 3em;
-    }
-
-    .sectionleft img{
-        margin:0em 0em 1em 0em ;
-    }
+.formation,
+.exp_pro,
+.recommandation {
+    padding:0em 1em 0em 2em;
 }
 
+    .description {
+        padding: 0em 2em 1em 1em;
+    }
 
+    .loisirs {
+        text-align: center;
+        padding: 2em;
+    }
+}
