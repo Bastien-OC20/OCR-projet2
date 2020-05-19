@@ -57,7 +57,7 @@ address a {
 
 address a:hover {
     text-decoration: none;
-    color:white;
+    color: white;
     transition: cubic-bezier(0.23, 1, 0.320, 1) 400ms;
 }
 
@@ -194,6 +194,19 @@ address,
     .description {
         padding: 0em 2em 1em 1em;
     }
+
+    .formation,
+    .exp_pro,
+    .recommandation {
+        padding:0em 1em 0em 2em;
+    }
+
+    .description {
+        padding: 0em 2em 1em 1em;
+    }
+
+    .loisirs {
+        text-align: center;
+        padding: 2em;
+    }
 }
-
-
