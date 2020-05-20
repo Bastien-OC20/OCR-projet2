@@ -75,4 +75,3 @@ Consignes :
 
 * [GNU General Public License v3.0](https://github.com/Bastien-OC20/ocr-projet2/blob/master/licence.md).
 * Projet libre de droit
-
