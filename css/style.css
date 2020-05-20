@@ -1,13 +1,6 @@
-body {
-    overflow-x: hidden;/* pas de defillement horizontall */
-}
 
-.container{
-    padding-left: 0em;
-    padding-right: 0em;
-}
 
-.columnleft {
+aside {
     background-color: rgb(241, 207, 14);
 }
 
@@ -37,19 +30,19 @@ li {
 }
 
 .decoration {
-    border-bottom: solid 0.1em rgb(241, 207, 14);
+    border-bottom: solid 0.07em rgb(241, 207, 14);
 }
 
 
 /* Main */
 
 /* columnleft */
-.columnleft img{
+aside img {
     text-align: center;
     padding-top: 1em;
 }
 
-.columnleft h2 {
+aside h2 {
     text-align: center;
     background-color: #0f0f0fe5;
     color: rgb(241, 207, 14);
@@ -78,7 +71,12 @@ address,
 
 .loisirs {
     text-align: center;
-    padding: 1em 0em 1em 0em;
+}
+
+.loisirs img {
+    padding: 0.5em;
+    overflow: hidden;
+    display: inline-block;
 }
 
 /* Section right */
@@ -90,7 +88,7 @@ address,
 }
 
 .description {
-    padding: 0em 0em 1em 0em;
+    padding: 0em 1em 1em 0em;
 }
 
 .fa-pen-fancy,
@@ -143,31 +141,32 @@ address,
 /* max-width 1024px */
 @media (max-width: 1023px) {
 
-    address, .propos{
+    address,
+    .propos {
         padding-left: 2em;
     }
-    .loisirs {
-        text-align: center;
-        padding:1em 4em 1em 3em;
+
+    .loisirs img {
+        padding: 0em;
+        size: 42px;
     }
 }
-
-
-
-
-
-
 
 
 
 /* max-width 767px */
 @media (max-width: 767px) {
 
-    .hide{
+    .hide {
         background: none;
     }
 
-    address, .propos{
+h2{
+    font-size: 1.5em;
+}
+
+    address,
+    .propos {
         padding-left: 4em;
     }
 
@@ -181,18 +180,14 @@ address,
         margin-bottom: 1em;
     }
 
-.formation,
-.exp_pro,
-.recommandation {
-    padding:0em 1em 0em 2em;
-}
+    .formation,
+    .exp_pro,
+    .recommandation {
+        padding: 0em 1em 0em 2em;
+    }
 
     .description {
         padding: 0em 2em 1em 1em;
     }
 
-    .loisirs {
-        text-align: center;
-        padding: 2em;
-    }
 }
