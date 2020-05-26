@@ -1,7 +1,5 @@
-
-
 aside {
-    background-color: rgb(241, 207, 14);
+    background-color: #feca07;
 }
 
 div,
@@ -26,11 +24,11 @@ li {
 }
 
 .colorname {
-    color: rgb(241, 207, 14);
+    color: #feca07;
 }
 
 .decoration {
-    border-bottom: solid 0.07em rgb(241, 207, 14);
+    border-bottom: solid 0.07em #feca07;
 }
 
 
@@ -45,7 +43,7 @@ aside img {
 aside h2 {
     text-align: center;
     background-color: #0f0f0fe5;
-    color: rgb(241, 207, 14);
+    color: #feca07;
 }
 
 address a {
@@ -73,10 +71,12 @@ address,
     text-align: center;
 }
 
-.loisirs img {
-    padding: 0.5em;
+.loisirs span {
+    margin-top: 1em;
+    padding: 0.3em;
     overflow: hidden;
     display: inline-block;
+    font-size: 32px;
 }
 
 /* Section right */
@@ -96,12 +96,12 @@ address,
 .fa-briefcase,
 .fa-dot-circle,
 .fa-circle {
-    color: rgb(241, 207, 14);
+    color: #feca07;
     padding-right: 0.5em;
 }
 
 .underline {
-    border-bottom: solid 0.05em rgb(241, 207, 14);
+    border-bottom: solid 0.05em #feca07;
     padding-bottom: 0.5em;
     margin-bottom: 1em;
 }
@@ -120,7 +120,7 @@ address,
 }
 
 .card-title {
-    border-bottom: solid 0.04em rgb(241, 207, 14);
+    border-bottom: solid 0.04em #feca07;
     width: 7em;
     padding-bottom: 0.4em;
 }
@@ -132,7 +132,7 @@ address,
 
 .card-text a:hover {
     text-decoration: none;
-    color: rgb(241, 207, 14);
+    color: #feca07;
     transition: cubic-bezier(0.23, 1, 0.320, 1) 400ms;
 }
 
@@ -161,9 +161,9 @@ address,
         background: none;
     }
 
-h2{
-    font-size: 1.5em;
-}
+    h2 {
+        font-size: 1.5em;
+    }
 
     address,
     .propos {
