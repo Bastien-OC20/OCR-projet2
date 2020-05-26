@@ -71,10 +71,12 @@ address,
     text-align: center;
 }
 
-.loisirs img {
-    padding: 0.5em;
+.loisirs span {
+    margin-top: 1em;
+    padding: 0.3em;
     overflow: hidden;
     display: inline-block;
+    font-size: 32px;
 }
 
 /* Section right */
