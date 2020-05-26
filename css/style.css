@@ -1,5 +1,10 @@
 aside {
-    background-color: #feca07;
+    background-color:#FBC02D;
+    padding-bottom: 1em;
+}
+
+.item{
+    padding:0em 0em 0em 4em;
 }
 
 div,
@@ -8,7 +13,6 @@ article,
 aside,
 footer {
     display: block;
-    padding: 0em 0em 1em 0em;
 }
 
 li {
@@ -24,11 +28,11 @@ li {
 }
 
 .colorname {
-    color: #feca07;
+    color: #FBC02D;
 }
 
 .decoration {
-    border-bottom: solid 0.07em #feca07;
+    border-bottom: solid 0.07em #FBC02D;
 }
 
 
@@ -43,7 +47,7 @@ aside img {
 aside h2 {
     text-align: center;
     background-color: #0f0f0fe5;
-    color: #feca07;
+    color: #FBC02D;
 }
 
 address a {
@@ -81,12 +85,6 @@ address,
 
 /* Section right */
 
-.formation,
-.exp_pro,
-.recommandation {
-    padding-left: 3em;
-}
-
 .description {
     padding: 0em 1em 1em 0em;
 }
@@ -96,12 +94,12 @@ address,
 .fa-briefcase,
 .fa-dot-circle,
 .fa-circle {
-    color: #feca07;
+    color: #FBC02D;
     padding-right: 0.5em;
 }
 
 .underline {
-    border-bottom: solid 0.05em #feca07;
+    border-bottom: solid 0.05em #FBC02D;
     padding-bottom: 0.5em;
     margin-bottom: 1em;
 }
@@ -120,7 +118,7 @@ address,
 }
 
 .card-title {
-    border-bottom: solid 0.04em #feca07;
+    border-bottom: solid 0.04em #FBC02D;
     width: 7em;
     padding-bottom: 0.4em;
 }
@@ -132,7 +130,7 @@ address,
 
 .card-text a:hover {
     text-decoration: none;
-    color: #feca07;
+    color: #FBC02D;
     transition: cubic-bezier(0.23, 1, 0.320, 1) 400ms;
 }
 
@@ -180,10 +178,8 @@ address,
         margin-bottom: 1em;
     }
 
-    .formation,
-    .exp_pro,
-    .recommandation {
-        padding: 0em 1em 0em 2em;
+    .item {
+        padding: 2em 1em 0em 3em;
     }
 
     .description {
