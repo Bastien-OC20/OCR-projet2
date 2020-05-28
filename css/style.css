@@ -115,6 +115,7 @@ address,
 
 .when_where {
     padding-left: 4em;
+
 }
 
 .card-header {
@@ -190,6 +191,7 @@ address,
         padding: 0em 2em 1em 1em;
     }
 
+
     .formation,
     .exp_pro,
     .recommandation {
@@ -199,5 +201,6 @@ address,
     .description {
         padding: 0em 2em 1em 1em;
     }
+
 
 }
