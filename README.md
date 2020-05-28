@@ -47,6 +47,21 @@ Consignes :
 * [Bootstrap v4.5.0](https://getbootstrap.com/) - framework CSS HTML et JavaScript
 
 
+## Legende des commit
+
+- ⏳ : Initialisation
+- ✋ : Suppression
+- 📦 : Construction
+- 📚 : Documentation
+- ✨ : Annexe
+- 🐛 : Réparation
+- 🚀 : Amélioration
+- 🔨 : Refonte
+- 🎨 : Style
+- 🔬 : Test du code
+
+
+
 ## Tags
 
 - **v1.4**: Refonte du code HTML et CSS
