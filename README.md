@@ -45,7 +45,7 @@ Consignes :
 - ✋ : Suppression
 - 📦 : Construction
 - 📚 : Documentation
-- ✨ : Annexe
+- ✨ : Fonctionnalité
 - 🐛 : Réparation
 - 🚀 : Amélioration
 - 🔨 : Refonte
