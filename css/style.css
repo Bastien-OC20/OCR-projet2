@@ -1,10 +1,25 @@
+body {
+    font-family: 'amblelight', Arial, 'Lucida Sans';
+    font-size: 1em;
+    color: black;
+}
+
 aside {
-    background-color:#FBC02D;
+    background-color: #FBC02D;
     padding-bottom: 1em;
 }
 
-.item{
-    padding:0em 0em 0em 4em;
+section {
+    margin-bottom: 1em;
+}
+
+
+.order-md-5 {
+    padding: 6em 0em 0em 0em;
+}
+
+.item {
+    padding: 0em 0em 0em 4em;
 }
 
 div,
@@ -13,6 +28,11 @@ article,
 aside,
 footer {
     display: block;
+}
+
+ul {
+    padding: 0em;
+
 }
 
 li {
@@ -38,10 +58,16 @@ li {
 
 /* Main */
 
+.order-md-4 {
+    padding: 2em 1em 0em 3em;
+}
+
 /* columnleft */
 aside img {
     text-align: center;
-    padding-top: 1em;
+    margin-top: 1em;
+    border-radius: 100%;
+    border: 2px solid black;
 }
 
 aside h2 {
@@ -73,15 +99,21 @@ address,
 
 .loisirs {
     text-align: center;
+    padding-top: 2em;
+    margin-bottom: 1em;
 }
 
 .loisirs span {
-    margin-top: 1em;
-    padding: 0.3em;
-    overflow: hidden;
-    display: inline-block;
+    text-align: justify;
+    padding: 0.5em 0.4em 0.5em 0.4em;
     font-size: 32px;
+    border-radius: 50%;
+    border: 1.5px solid black;
+
 }
+
+
+
 
 /* Section right */
 
@@ -118,7 +150,6 @@ address,
 }
 
 .card-title {
-    border-bottom: solid 0.04em #FBC02D;
     width: 7em;
     padding-bottom: 0.4em;
 }
@@ -137,16 +168,32 @@ address,
 
 /* responsive */
 /* max-width 1024px */
-@media (max-width: 1023px) {
+@media (max-width: 1024px) {
+
+    .titre {
+        vertical-align: middle;
+        padding: 4em 0em 0em 3em;
+    }
+
 
     address,
     .propos {
         padding-left: 2em;
     }
 
-    .loisirs img {
-        padding: 0em;
-        size: 42px;
+
+    .order-md-6 {
+        margin-top: 0em;
+    }
+
+    .loisirs {
+        text-align: center;
+        padding-bottom: 1em;
+    }
+
+    .loisirs span {
+        text-align: center;
+        font-size: 24px;
     }
 }
 
@@ -158,6 +205,12 @@ address,
     .hide {
         background: none;
     }
+
+    aside img {
+        text-align: center;
+        border: none;
+    }
+
 
     h2 {
         font-size: 1.5em;
@@ -184,6 +237,24 @@ address,
 
     .description {
         padding: 0em 2em 1em 1em;
+    }
+
+    .order-md-5 {
+        padding: 0em;
+    }
+
+    .order-md-6 {
+        margin: 0em;
+    }
+
+    .loisirs {
+        text-align: center;
+    }
+
+
+    .loisirs span {
+        text-align: justify;
+
     }
 
 }
