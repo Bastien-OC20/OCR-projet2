@@ -9,7 +9,9 @@
 
 ## Pour commencer
 
+
 Ce projet s'inscrit dans le cadre de la formation "Développeur web" proposée par OpenClassroom.
+
 
 Consignes :
 - Coder le CV en HTML et CSS uniquement
@@ -53,7 +55,7 @@ Consignes :
 - ✋ : Suppression
 - 📦 : Construction
 - 📚 : Documentation
-- ✨ : Annexe
+- ✨ : Fonctionnalité
 - 🐛 : Réparation
 - 🚀 : Amélioration
 - 🔨 : Refonte
