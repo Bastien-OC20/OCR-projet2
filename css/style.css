@@ -1,12 +1,32 @@
+html {
+    background-color: #282728;
+}
+
 body {
     font-family: 'amblelight', Arial, 'Lucida Sans';
     font-size: 1em;
-    color: black;
+    color: #282728;
+}
+
+h1 {
+    position: relative;
+    display: block;
+    font-size: 2.5em;
+}
+
+h3 {
+    font-size: 1.5em;
 }
 
 aside {
     background-color: #FBC02D;
+}
+
+header figure {
+    background-color: #FBC02D;
     padding-bottom: 1em;
+    margin-bottom: 0em;
+
 }
 
 section {
@@ -15,7 +35,7 @@ section {
 
 
 .order-md-5 {
-    padding: 6em 0em 0em 0em;
+    padding: 10em 0em 0em 0em;
 }
 
 .item {
@@ -39,12 +59,16 @@ li {
     list-style: none;
 }
 
+.typo {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 
 /* header  */
 
 .titre {
     vertical-align: middle;
-    padding: 7em 0em 0em 3em;
+    padding: 7em 12em 0em 3em;
 }
 
 .colorname {
@@ -58,26 +82,30 @@ li {
 
 /* Main */
 
-.order-md-4 {
+
+
+.order-md-2,
+.order-md-4,
+.order-md-6 {
     padding: 2em 1em 0em 3em;
 }
 
 /* columnleft */
-aside img {
+figure img {
     text-align: center;
     margin-top: 1em;
     border-radius: 100%;
-    border: 2px solid black;
+    border: 2px solid #282728;
 }
 
 aside h2 {
     text-align: center;
-    background-color: #0c0000ea;
+    background-color: #282728;
     color: #FBC02D;
 }
 
 address a {
-    color: black;
+    color: #282728;
     text-decoration: none;
 }
 
@@ -98,27 +126,38 @@ address,
 }
 
 .loisirs {
+    font-size: 60px;
     text-align: center;
-    padding-top: 2em;
-    margin-bottom: 1em;
+    margin-bottom: 0.5em;
+    color: #282728;
 }
 
-.loisirs span {
+.center-block {
     text-align: justify;
-    padding: 0.5em 0.4em 0.5em 0.4em;
+    padding: 0.5em 0.3338em 0.5em 0.3338em;
+    margin: 0.5em;
     font-size: 32px;
     border-radius: 50%;
-    border: 1.5px solid black;
+    border: 0.01em solid #282728;
 
 }
 
+.center-block1 {
+    text-align: justify;
+    padding: 0.5em 0.5em 0.5em 0.5em;
+    margin: 0.5em;
+    font-size: 32px;
+    border-radius: 50%;
+    border: 0.01em solid #282728;
+
+}
 
 
 
 /* Section right */
 
 .description {
-    padding: 0em 1em 1em 0em;
+    padding-right: 1em;
 }
 
 .fa-pen-fancy,
@@ -130,9 +169,16 @@ address,
     padding-right: 0.5em;
 }
 
+
+.puce_titre {
+    position: absolute;
+    font-size: 32px;
+    padding: 0.3em 0em 0em 0em;
+}
+
 .underline {
     border-bottom: solid 0.05em #FBC02D;
-    padding-bottom: 0.5em;
+    padding: 0.2em 0em 0.5em 1.5em;
     margin-bottom: 1em;
 }
 
@@ -141,12 +187,23 @@ address,
     padding: 0.3em 0em 0em 0em;
 }
 
+
+
 .when_where {
+    display: block;
+    width: 75%;
     padding-left: 2em;
 }
 
+
+
 .card-header {
     background-color: rgba(241, 207, 14, 0.13);
+}
+
+.card {
+
+    background-color: transparent;
 }
 
 .card-title {
@@ -155,7 +212,7 @@ address,
 }
 
 .card-text a {
-    color: black;
+    color: #282728;
     text-decoration: none;
 }
 
@@ -169,12 +226,34 @@ address,
 /* responsive */
 /* max-width 1024px */
 @media (max-width: 1024px) {
+    body {
+        margin: 0em;
+        padding: 0em;
+    }
 
     .titre {
         vertical-align: middle;
         padding: 4em 0em 0em 3em;
     }
 
+    aside img {
+        text-align: center;
+        margin-top: 1em;
+    }
+
+    .item {
+        padding: 0em 0em 0em 1em;
+    }
+
+    .when_where {
+        display: block;
+        width: 100%;
+        padding-left: 2em;
+    }
+
+    .description {
+        padding-right: 2em;
+    }
 
     address,
     .propos {
@@ -188,12 +267,17 @@ address,
 
     .loisirs {
         text-align: center;
-        padding-bottom: 1em;
+        margin: 0em;
     }
 
-    .loisirs span {
-        text-align: center;
-        font-size: 24px;
+    .center-block {
+        margin: 0.01em;
+        font-size: 28px;
+    }
+
+    .center-block1 {
+        margin: 0.01em;
+        font-size: 28px;
     }
 }
 
@@ -206,14 +290,10 @@ address,
         background: none;
     }
 
-    aside img {
+    figure img {
         text-align: center;
-        border: none;
-    }
-
-
-    h2 {
-        font-size: 1.5em;
+        border-radius: 100%;
+        border: 0.5px solid#282728;
     }
 
     address,
@@ -227,9 +307,19 @@ address,
         padding: 0em;
     }
 
+    .puce_titre {
+        position: absolute;
+        font-size: 25px;
+        padding: 0.3em 0em 0em 0em;
+    }
+
     .underline {
+        font-size: 1.5em;
+        border-bottom: solid 0.05em #FBC02D;
+        padding: 0.4em 0em 0.5em 1.5em;
         margin-bottom: 1em;
     }
+
 
     .item {
         padding: 2em 1em 0em 3em;
@@ -249,12 +339,71 @@ address,
 
     .loisirs {
         text-align: center;
+        font-size: 55px;
+        padding-bottom: 0.5em;
+        margin: 0em;
     }
 
-
-    .loisirs span {
+    .center-block {
         text-align: justify;
-
+        margin: 0.5em;
+        font-size: 28px;
     }
 
+    .center-block1 {
+        text-align: justify;
+        margin: 0.5em;
+        font-size: 28px;
+    }
+
+
+
+}
+
+/* max-width 443px */
+@media (max-width: 443px) {
+    body {
+        margin: 0em;
+        padding: 0em;
+    }
+
+
+    aside img {
+        text-align: center;
+        margin-top: 1em;
+    }
+
+    address,
+    .propos {
+        padding-left: 1em;
+    }
+
+    .item {
+        padding: 2em 1em 0em 1em;
+    }
+
+    .when_where {
+        display: block;
+        width: 100%;
+        padding-left: 2em;
+    }
+
+    .loisirs {
+        text-align: center;
+        font-size: 50px;
+        padding-bottom: 0.5em;
+        margin: 0em;
+    }
+
+    .center-block {
+        text-align: justify;
+        margin: 0em;
+        font-size: 24px;
+    }
+
+    .center-block1 {
+        text-align: justify;
+        margin: 0em;
+        font-size: 24px;
+    }
 }
